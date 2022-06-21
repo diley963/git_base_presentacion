@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBA-COLMAS", "LBA-COLMAS\LBA-COLMAS.csproj", "{10975F9F-C355-4E52-8045-BFDCE305E8BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E89F85B7-2C94-4F1F-BAE8-830D39CD055C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10975F9F-C355-4E52-8045-BFDCE305E8BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10975F9F-C355-4E52-8045-BFDCE305E8BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10975F9F-C355-4E52-8045-BFDCE305E8BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10975F9F-C355-4E52-8045-BFDCE305E8BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18CAAA69-CF5D-400F-83A2-07F6AE9EC52C}
+	EndGlobalSection
+EndGlobal
