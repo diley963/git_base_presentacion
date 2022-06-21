@@ -8,7 +8,7 @@ $(function() {
     var t = c3.generate({
         bindto: "#axis-timezone",
         size: { height: 400 },
-        color: { pattern: ["#1e88e5", "#00acc1"] },
+        color: { pattern: ["#001f32", "#00acc1"] },
         data: {
             x: "x",
             xFormat: "%Y",

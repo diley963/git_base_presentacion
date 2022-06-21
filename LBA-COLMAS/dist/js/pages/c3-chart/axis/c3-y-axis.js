@@ -8,7 +8,7 @@ $(function() {
     var o = c3.generate({
         bindto: "#y-axis",
         size: { height: 400 },
-        color: { pattern: ["#1e88e5", "#E91E63"] },
+        color: { pattern: ["#001f32", "#E91E63"] },
         data: {
             columns: [
                 ["Profit", 2500, 150, 1000, 100, 500, 30]

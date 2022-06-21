@@ -9,7 +9,7 @@ $(function() {
         bindto: "#spline-chart",
         size: { height: 400 },
         point: { r: 4 },
-        color: { pattern: ["#1e88e5", "#00acc1"] },
+        color: { pattern: ["#001f32", "#00acc1"] },
         data: {
             columns: [
                 ["option1", 30, 200, 100, 250, 100, 250],

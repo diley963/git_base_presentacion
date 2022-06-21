@@ -8,7 +8,7 @@ $(function() {
     var a = c3.generate({
         bindto: "#rotated-axis",
         size: { height: 400 },
-        color: { pattern: ["#00acc1", "#1e88e5"] },
+        color: { pattern: ["#00acc1", "#001f32"] },
         data: {
             columns: [
                 ["data1", 50, 250, 90, 400, 300, 150],

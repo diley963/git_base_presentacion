@@ -27,7 +27,7 @@ $(function() {
                 },
 
                 // Add custom colors
-                color: ['#1e88e5', '#f62d51'],
+                color: ['#001f32', '#f62d51'],
 
                 // Enable drag recalculate
                 calculable : true,
@@ -133,7 +133,7 @@ $(function() {
                 },
 
                 // Add custom colors
-                color: ['#1e88e5', '#00acc1'],
+                color: ['#001f32', '#00acc1'],
 
                 // Enable drag recalculate
                 calculable : true,
@@ -219,7 +219,7 @@ $(function() {
                 },
 
                 // Add custom colors
-                color: ['#1e88e5', '#7460ee', '#f62d51', '#36bea6', '#212529'],
+                color: ['#001f32', '#7460ee', '#f62d51', '#36bea6', '#212529'],
 
                 // Enable drag recalculate
                 calculable: true,
@@ -297,7 +297,7 @@ $(function() {
                 },
 
                 // Add custom colors
-                color: ['#212529', '#7460ee', '#f62d51', '#36bea6','#1e88e5' ],
+                color: ['#212529', '#7460ee', '#f62d51', '#36bea6','#001f32' ],
 
                 // Enable drag recalculate
                 calculable: true,

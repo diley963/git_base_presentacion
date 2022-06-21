@@ -9,7 +9,7 @@ $(function() {
         bindto: "#multiple-xy",
         size: { height: 400 },
         point: { r: 4 },
-        color: { pattern: ["#1e88e5", "#00acc1"] },
+        color: { pattern: ["#001f32", "#00acc1"] },
         data: {
             xs: { option1: "x1", option2: "x2" },
             columns: [

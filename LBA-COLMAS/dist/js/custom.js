@@ -116,7 +116,7 @@ $(function () {
         barWidth: '4',
         resize: true,
         barSpacing: '4',
-        barColor: '#1e88e5'
+        barColor: '#001f32'
     });
     $('#lastmonthchart').sparkline([5, 6, 2, 9, 4, 7, 10, 12], {
         type: 'bar',

@@ -261,10 +261,10 @@ $(function() {
             width: '100%',
             height: '50',
             lineColor: '#fff',
-            fillColor: '#1e88e5',
-            maxSpotColor: '#1e88e5',
+            fillColor: '#001f32',
+            maxSpotColor: '#001f32',
             highlightLineColor: 'rgba(0, 0, 0, 0.2)',
-            highlightSpotColor: '#1e88e5'
+            highlightSpotColor: '#001f32'
         });
         $("#spark6").sparkline([2, 4, 4, 6, 8, 5, 6, 4, 8, 6, 6, 2], {
             type: 'line',
@@ -420,7 +420,7 @@ $(function() {
 
         },
         color: {
-            pattern: ['#1e88e5', '#21c1d6', '#fc4b6c', '#7e74fb']
+            pattern: ['#001f32', '#21c1d6', '#fc4b6c', '#7e74fb']
         }
     });
 

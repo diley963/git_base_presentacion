@@ -7,7 +7,7 @@
 $(function() {
     var o = c3.generate({
         bindto: "#donut-chart",
-        color: { pattern: ["#1e88e5", "#26c6da", "#f62d51"] },
+        color: { pattern: ["#001f32", "#26c6da", "#f62d51"] },
         data: {
             columns: [
                 ["option1", 30],

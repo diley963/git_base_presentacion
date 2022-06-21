@@ -11,7 +11,7 @@ $(function(e) {
         bindto: '#data-from-url',
         size: { height: 400 },
         color: {
-            pattern: ['#1e88e5', '#00acc1', '#fc4b6c']
+            pattern: ['#001f32', '#00acc1', '#fc4b6c']
         },
 
         // Create the data table.

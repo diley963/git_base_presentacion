@@ -142,7 +142,7 @@ $(function () {
             markers: [{
                     latLng : [40.71, -74.00],
                     name : 'Newyork: 250'
-                    , style: {fill: '#1e88e5'}
+                    , style: {fill: '#001f32'}
                 },{
                     latLng : [39.01, -98.48],
                     name : 'Kansas: 250'

@@ -8,7 +8,7 @@ $(function() {
     var t = c3.generate({
         bindto: "#step-chart",
         size: { height: 400 },
-        color: { pattern: ["#1e88e5", "#00acc1"] },
+        color: { pattern: ["#001f32", "#00acc1"] },
         data: {
             columns: [
                 ["option1", 250, 300, 200, 150, 120, 100],

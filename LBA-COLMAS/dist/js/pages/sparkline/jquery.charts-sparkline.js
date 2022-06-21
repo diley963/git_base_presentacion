@@ -15,7 +15,7 @@ $(document).ready(function() {
             width: '50',
             height: '45',
             resize: true,
-            sliceColors: ['#1e88e5', '#fc4b6c', '#f1f2f7']
+            sliceColors: ['#001f32', '#fc4b6c', '#f1f2f7']
         });
 
     
@@ -25,7 +25,7 @@ $(document).ready(function() {
             barWidth: '7',
             resize: true,
             barSpacing: '5',
-            barColor: '#1e88e5'
+            barColor: '#001f32'
         });
 
 		
@@ -48,7 +48,7 @@ $(document).ready(function() {
             height: '160',
             chartRangeMax: 50,
             resize: true,
-            lineColor: '#1e88e5',
+            lineColor: '#001f32',
             fillColor: 'rgba(19, 218, 254, 0.3)',
             highlightLineColor: 'rgba(0,0,0,.1)',
             highlightSpotColor: 'rgba(0,0,0,.2)',
@@ -71,7 +71,7 @@ $(document).ready(function() {
             height: '45',
             barWidth: '7',
             barSpacing: '4',
-            barColor: '#1e88e5'
+            barColor: '#001f32'
         });
         $("#sparkline7").sparkline([0,2,8,6,8,5,6,4,8,6,4,2 ], {
             type: 'line',
@@ -96,12 +96,12 @@ $(document).ready(function() {
             type: 'line',
             width: '100%',
             height: '50',
-            lineColor: '#1e88e5',
-            fillColor: '#1e88e5',
-            minSpotColor:'#1e88e5',
-            maxSpotColor: '#1e88e5',
+            lineColor: '#001f32',
+            fillColor: '#001f32',
+            minSpotColor:'#001f32',
+            maxSpotColor: '#001f32',
             highlightLineColor: 'rgba(0, 0, 0, 0.2)',
-            highlightSpotColor: '#1e88e5'
+            highlightSpotColor: '#001f32'
         });
         $("#sparkline10").sparkline([2,4,4,6,8,5,6,4,8,6,6,2], {
             type: 'line',
@@ -117,7 +117,7 @@ $(document).ready(function() {
             type: 'pie',
             height: '200',
             resize: true,
-            sliceColors: ['#1e88e5', '#fc4b6c', '#f1f2f7']
+            sliceColors: ['#001f32', '#fc4b6c', '#f1f2f7']
         });
         
         $("#sparkline12").sparkline([5,6,2,8,9,4,7,10,11,12,10,4,7,10], {
@@ -134,12 +134,12 @@ $(document).ready(function() {
             barWidth: '10',
             resize: true,
             barSpacing: '7',
-            barColor: '#1e88e5'
+            barColor: '#001f32'
         });
          $('#sparkline13').sparkline([5, 6, 2, 9, 4, 7, 10, 12,4,7,10], {
             type: 'line',
             height: '200',
-            lineColor: '#1e88e5',
+            lineColor: '#001f32',
             fillColor: 'transparent',
             composite: true,
             highlightLineColor: 'rgba(0,0,0,.1)',
@@ -162,7 +162,7 @@ $(document).ready(function() {
             height: '200',
             barWidth: '10',
             barSpacing: '10',
-            barColor: '#1e88e5'
+            barColor: '#001f32'
         });
 		$('#sparkline16').sparkline([15, 23, 55, 35, 54, 45, 66, 47, 30], {
             type: 'line',
@@ -170,7 +170,7 @@ $(document).ready(function() {
             height: '200',
             chartRangeMax: 50,
             resize: true,
-            lineColor: '#1e88e5',
+            lineColor: '#001f32',
             fillColor: 'rgba(19, 218, 254, 0.3)',
             highlightLineColor: 'rgba(0,0,0,.1)',
             highlightSpotColor: 'rgba(0,0,0,.2)',
@@ -211,7 +211,7 @@ $(document).ready(function() {
             barWidth: '4',
             resize: true,
             barSpacing: '5',
-            barColor: '#1e88e5'
+            barColor: '#001f32'
         });
            $('#sparklinedash4').sparkline([ 0, 5, 6, 10, 9, 12, 4, 9], {
             type: 'bar',

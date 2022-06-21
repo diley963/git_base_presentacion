@@ -14,7 +14,7 @@ $(function() {
         bindto: '#column-chart',
         size: { height: 400 },
         color: {
-            pattern: ['#1e88e5', '#343a40', '#26c6da']
+            pattern: ['#001f32', '#343a40', '#26c6da']
         },
 
 

@@ -8,7 +8,7 @@ $(function() {
     var a = c3.generate({
         bindto: "#data-order",
         size: { height: 400 },
-        color: { pattern: ["#343a40", "#00acc1", "#fc4b6c", "#1e88e5", "#ced4da"] },
+        color: { pattern: ["#343a40", "#00acc1", "#fc4b6c", "#001f32", "#ced4da"] },
         data: {
             columns: [
                 ["option1", 750, 530, 400, 320, 200, 130],

@@ -27,7 +27,7 @@ $(function() {
                 },
 
                 // Add custom colors
-                color: ['#ffbc34', '#00acc1', '#212529', '#f62d51', '#1e88e5'],
+                color: ['#ffbc34', '#00acc1', '#212529', '#f62d51', '#001f32'],
 
                 // Display toolbox
                 toolbox: {
@@ -119,7 +119,7 @@ $(function() {
                 },
 
                 // Add custom colors
-                color: ['#ffbc34', '#00acc1', '#212529', '#f62d51', '#1e88e5'],
+                color: ['#ffbc34', '#00acc1', '#212529', '#f62d51', '#001f32'],
 
                 // Display toolbox
                 toolbox: {
@@ -278,7 +278,7 @@ $(function() {
                     },
                     itemStyle: {
                         normal: {
-                            color: '#1e88e5',
+                            color: '#001f32',
                             shadowBlur: 200,
                             shadowColor: 'rgba(0, 0, 0, 0.5)'
                         }
@@ -315,7 +315,7 @@ $(function() {
                 },
 
                 // Add custom colors
-                color: ['#ffbc34', '#00acc1', '#212529', '#f62d51', '#1e88e5'],
+                color: ['#ffbc34', '#00acc1', '#212529', '#f62d51', '#001f32'],
 
                 // Display toolbox
                 toolbox: {
@@ -485,7 +485,7 @@ $(function() {
                 },
 
                 // Add custom colors
-                color: ['#1e88e5', '#00acc1', '#f62d51'],
+                color: ['#001f32', '#00acc1', '#f62d51'],
  
                 // Add series
                 series: [
@@ -574,7 +574,7 @@ $(function() {
                     data: ['January','February','March','April','May','June','July','August','September','October','November','December']
                 },
 
-                color: ['#ffbc34', '#00acc1', '#212529', '#f62d51', '#1e88e5', '#FFC400', '#006064', '#FF1744', '#1565C0', '#FFC400', '#64FFDA', '#607D8B'],
+                color: ['#ffbc34', '#00acc1', '#212529', '#f62d51', '#001f32', '#FFC400', '#006064', '#FF1744', '#1565C0', '#FFC400', '#64FFDA', '#607D8B'],
 
                 // Display toolbox
                 toolbox: {

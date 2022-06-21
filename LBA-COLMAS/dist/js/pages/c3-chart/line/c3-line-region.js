@@ -18,7 +18,7 @@ $(function() {
             r: 4
         },
         color: {
-            pattern: ['#1e88e5', '#00acc1']
+            pattern: ['#001f32', '#00acc1']
         },
 
         // Create the data table.

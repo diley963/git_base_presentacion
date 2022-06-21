@@ -8,7 +8,7 @@ $(window).on("load", function() {
         bindto: '#stacked-column',
         size: { height: 400 },
         color: {
-            pattern: ['#1e88e5', '#ced4da', '#26c6da', '#f62d51']
+            pattern: ['#001f32', '#ced4da', '#26c6da', '#f62d51']
         },
 
         // Create the data table.

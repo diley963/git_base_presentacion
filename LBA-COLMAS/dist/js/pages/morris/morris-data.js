@@ -45,12 +45,12 @@ Morris.Area({
         labels: ['iPhone', 'iPad', 'iPod Touch'],
         pointSize: 3,
         fillOpacity: 0,
-        pointStrokeColors:['#fc4b6c', '#1e88e5', '#00acc1'],
+        pointStrokeColors:['#fc4b6c', '#001f32', '#00acc1'],
         behaveLikeLine: true,
         gridLineColor: '#e0e0e0',
         lineWidth: 3,
         hideHover: 'auto',
-        lineColors: ['#fc4b6c', '#1e88e5', '#00acc1'],
+        lineColors: ['#fc4b6c', '#001f32', '#00acc1'],
         resize: true
         
     });
@@ -99,13 +99,13 @@ Morris.Area({
         labels: ['Site A', 'Site B'],
         pointSize: 0,
         fillOpacity: 0.4,
-        pointStrokeColors:['#b4becb', '#1e88e5'],
+        pointStrokeColors:['#b4becb', '#001f32'],
         behaveLikeLine: true,
         gridLineColor: '#e0e0e0',
         lineWidth: 0,
         smooth: false,
         hideHover: 'auto',
-        lineColors: ['#b4becb', '#1e88e5'],
+        lineColors: ['#b4becb', '#001f32'],
         resize: true
         
     });
@@ -131,7 +131,7 @@ Morris.Area({
           ykeys: ['item1'],
           labels: ['Item 1'],
           gridLineColor: '#eef0f2',
-          lineColors: ['#1e88e5'],
+          lineColors: ['#001f32'],
           lineWidth: 1,
           hideHover: 'auto'
         });
@@ -151,7 +151,7 @@ Morris.Area({
             value: 20
         }],
         resize: true,
-        colors:['#1e88e5', '#fc4b6c', '#00acc1']
+        colors:['#001f32', '#fc4b6c', '#00acc1']
     });
 
 // Morris bar chart
@@ -196,7 +196,7 @@ Morris.Area({
         xkey: 'y',
         ykeys: ['a', 'b', 'c'],
         labels: ['A', 'B', 'C'],
-        barColors:['#fc4b6c', '#00acc1', '#1e88e5'],
+        barColors:['#fc4b6c', '#00acc1', '#001f32'],
         hideHover: 'auto',
         gridLineColor: '#eef0f2',
         resize: true
@@ -243,7 +243,7 @@ Morris.Area({
 
 
                 ],
-                lineColors: ['#fc4b6c', '#00acc1', '#1e88e5'],
+                lineColors: ['#fc4b6c', '#00acc1', '#001f32'],
                 xkey: 'period',
                 ykeys: ['iphone', 'ipad', 'itouch'],
                 labels: ['Site A', 'Site B', 'Site C'],

@@ -1,15 +1,19 @@
-﻿using RestSharp;
+﻿using java.awt.image;
+using RestSharp;
+using SharpDX;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using XAct;
+using DataBuffer = java.awt.image.DataBuffer;
 
 namespace LBA_COLMAS
 {
@@ -17,12 +21,18 @@ namespace LBA_COLMAS
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+        }
+
+        public void btnGuardarDatosCliente(object sender, EventArgs e)
+        {
+
             var datos = new ClientesDto()
             {
-                Apellido = "barrios",
-                Correo = "barrios@correo.kjsjs.bcom",
-                Nombre = "prueba nombre",
-                Telefono = 21616
+                Apellido = (_apellido.FindControl("_apellido") as TextBox).Text,
+                Correo = (_Correo.FindControl("_Correo") as TextBox).Text,
+                Nombre = (_nombre.FindControl("_nombre") as TextBox).Text,
+                Telefono = Convert.ToInt32((_Identificiacion.FindControl("_Identificiacion") as TextBox).Text),
             };
 
             string jsonString = JsonSerializer.Serialize(datos);
@@ -30,41 +40,11 @@ namespace LBA_COLMAS
             CrearCliente(jsonString);
         }
 
-        private bool CrearCliente(string _Cliente)
+        public bool CrearCliente(string _Cliente)
         {
-            var url = $"https://localhost:44329/api/Peticion?peticion=" + _Cliente;
-            ASCIIEncoding encoder = new ASCIIEncoding();
-            byte[] data = encoder.GetBytes(_Cliente);
-            var request = (HttpWebRequest)WebRequest.Create(url);
-            request.Method = "POST";
-            request.ContentType = "application/json";
-            request.ContentLength = data.Length;
-            request.Accept = "application/json";
-
-            try
-            {
-                using (var response1 = request.GetRequestStream())
-                {
-                    using (WebResponse response = request.GetResponse())
-                    {
-                        using (Stream strReader = response.GetResponseStream())
-                        {
-                            using (StreamReader objReader = new StreamReader(strReader))
-                            {
-                                string responseBody = objReader.ReadToEnd();
-                                // Do something with responseBody
-                            }
-                        }
-                    }
-                }
-            }
-            catch (WebException ex)
-            {
-                // Handle error
-            }
-
-            return true;
-        }
+            var result = new ConexionApi().DBConex(_Cliente);
+            return result;
+        }         
 
 
 

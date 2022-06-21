@@ -33,7 +33,7 @@ $(function() {
                         saveAsImage : {show: true}
                     }
                 },
-                color: ["#1e88e5", "#00acc1"],
+                color: ["#001f32", "#00acc1"],
                 calculable : true,
                 xAxis : [
                     {
@@ -115,7 +115,7 @@ $(function() {
                 },
 
                 // Add custom colors
-                color: ['#1e88e5', '#00acc1', '#212529', '#fc4b6c', '#dadada'],
+                color: ['#001f32', '#00acc1', '#212529', '#fc4b6c', '#dadada'],
 
                 // Horizontal axis
                 xAxis: [{
@@ -204,7 +204,7 @@ $(function() {
                 },
 
                 // Add custom colors
-                color: ['#1e88e5', '#00acc1', '#212529', '#fc4b6c', '#dadada'],
+                color: ['#001f32', '#00acc1', '#212529', '#fc4b6c', '#dadada'],
 
                 // Enable drag recalculate
                 calculable: true,
@@ -304,7 +304,7 @@ $(function() {
                 },
 
                 // Add custom colors
-                color: ['#1e88e5', '#00acc1'],
+                color: ['#001f32', '#00acc1'],
 
                 // Horizontal axis
                 xAxis: [{
